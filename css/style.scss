@@ -44,6 +44,76 @@ span{
 
 /* header-top
 ===============================*/
-h1{
-      font-family: "ProximaNovaBlack";
+.header-top{
+    background:#000000;
+    &_box{
+        display: flex;
+        justify-content:space-between;
+        &__item{
+          font-family: "ProximaNovaLight";
+          font-size: 12px;
+          padding: 11px 0px;
+          a{
+              color:#fff;
+              -webkit-transition:0.5s;
+              &:hover{
+                color:#B2131F;
+            }
+        }
+        .active-lang{
+            color:#B2131F;
+        }
+        span{
+            padding:0px 9px;
+            color:#fff;
+        }
+    }
+}
+}
+
+/* header-middle
+===============================*/
+.header-middle{
+    &_item{
+        padding: 36px 0px;
+        text-align: center;
+        img{
+            margin: 0 auto;
+        }
+        span{
+            color: #3e3e3d;
+            font-size: 30px;
+            font-family: "ProximaNovaRegular";
+            background: url(../img/phone.png) no-repeat left center;
+            padding-left: 48px;
+        }
+        a{
+            color: #a21c26;
+            font-size: 14px;
+            font-family: "ProximaNovaRegular";
+            border-bottom:1px solid #F4C7CA;
+        }
+        &__last{
+            a{
+                
+                border-bottom: none;
+            }
+           a:first-child{
+            margin-right: 10px;
+           }
+       }
+       @media only screen and (min-width: 768px) {
+        &__first{
+            img{
+                margin-left: 0;
+            }
+        }
+        &__second{
+            text-align: right;
+        }
+        &__last{
+            text-align: right;
+        }
+    }
+}
 }

@@ -13,7 +13,45 @@
 </head>
 <body>
 
-<h1>Заголовок</h1>
+	<!-- header-top -->
+	<div class="header-top">
+		<div class="container">
+			<div class="header-top_box">
+				<div class="header-top_box__item">
+					<a class="active-lang" href="#">Рус</a><span>|</span><a href="#">Eng</a>
+				</div>
+				<div class="header-top_box__item">
+					<a href="#">Вход</a><span>|</span><a href="#">Регистрация</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- header-middle -->
+	<div class="header-middle">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="header-middle_item header-middle_item__first">
+						<img class="img-responsive" src="img/logo.png" alt="">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="header-middle_item header-middle_item__second">
+						<span>(098) 987 76 56</span><br/>
+						<a href="#">Заказать звонок</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+					<div class="header-middle_item header-middle_item__last">
+						<a href="#"><img src="img/basket.png" alt=""></a>
+						<a href="#"><img src="img/login.png" alt=""></a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
 
 
 
