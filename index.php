@@ -51,6 +51,83 @@
 				<div class="clearfix"></div>
 			</div>
 		</div>
+
+		<!-- Navigation -->
+		<div class="nav-wrap">
+			<div class="container">
+				<div class="nav">
+					<div class="nav_item nav_item__left">
+						<ul>
+
+							<li><a href="#">магазин</a>
+								<ul class="sub-menu">
+									<li><a href="#">Двигатель, сцепление</a></li>
+									<li><a href="#">Толпливная система, система выпуска ОГ</a></li>
+									<li><a href="#">Трансмиссия</a></li>
+									<li><a href="#">Передняя ось, дифференциал</a></li>
+									<li><a href="#">Задняя ось</a></li>
+									<li><a href="#">Колеса, тормозная система</a></li>
+									<li><a href="#">Механизмы управления, педальны узел</a></li>
+									<li><a href="#">Кузов электрика</a></li>
+									<li><a href="#">Аксессуары</a></li>
+								</ul>
+							</li>
+
+							<li><a href="#">новости</a></li>
+							<li><a href="#">доставка</a></li>
+							<li><a href="#">оплата</a></li>
+							<li><a href="#">акции</a></li>
+							<li><a href="#">контакты</a></li>
+
+						</ul>
+					</div>
+					<div class="nav_item nav_item__right">
+						<form action="#">
+							<label>
+								<input type="text">
+								<button type="submit"><img src="img/poisk.png" alt=""></button>
+							</label>
+						</form>
+					</div>
+				</div>
+			</div><!-- container -->
+		</div><!-- nav-wrap -->
+
+	</div><!-- header-middle -->
+
+	<!-- header-bottom -->
+	<div class="header-bottom">
+		<div class="container">
+			<div class="header-bottom_item header-bottom_item__left">
+				<ul>
+					<li><a href="#">Двигатель, сцепление <b>+</b></a></li>
+					<li><a href="#">Топливная система<b>+</b></a></li>
+					<li><a href="#">Трансмиссия<b>+</b></a></li>
+					<li><a href="#">Передняя ось<b>+</b></a></li>
+					<li><a href="#">Задняя ось<b>+</b></a></li>
+					<li><a href="#">Колеса, тормозная система<b>+</b></a></li>
+					<li><a href="#">Механизмы управления<b>+</b></a></li>
+					<li><a href="#">Кузов<b>+</b></a></li>
+					<li><a href="#">Электрика<b>+</b></a></li>
+				</ul>
+			</div>
+
+			<div class="header-bottom_item header-bottom_item__right">
+				<div id="slider-banner">
+					<div class="item">
+						<img src="img/banner.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="img/banner.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="img/banner.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
 	</div>
 
 
